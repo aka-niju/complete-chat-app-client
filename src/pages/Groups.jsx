@@ -139,9 +139,9 @@ const Groups = () => {
   };
 
   const deleteHandler = () => {
-    deleteGroup("Deleting Group...", chatId);
-    closeConfirmDeleteHandler();
-    navigate("/groups");
+      deleteGroup("Deleting Group...", chatId);
+      closeConfirmDeleteHandler();
+      navigate("/");
   };
 
   const removeMemberHandler = (userId) => {
@@ -179,7 +179,7 @@ const Groups = () => {
         </IconButton>
       </Box>
 
-      <Tooltip title="back">
+      <Tooltip title="Back">
         <IconButton
           sx={{
             position: "absolute",
