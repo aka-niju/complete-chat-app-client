@@ -3,7 +3,7 @@ import { Helmet } from "react-helmet-async";
 
 const Title = ({
   title = "Chat App",
-  description = "this is the Chat App called Chattu",
+  description = "Connect and chat with friends in real-time on our chat app. Make new friends, send friend requests, and enjoy seamless communication.",
 }) => {
   return (
     <Helmet>
